@@ -8,5 +8,6 @@ import edgeoneAdapter from '@edgeone/astro';
 export default defineConfig({
   adapter: edgeoneAdapter(),
   output: 'static',
-  integrations: [react()]
+  integrations: [react()],
+  content: false
 });
